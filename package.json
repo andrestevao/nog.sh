@@ -1,0 +1,27 @@
+{
+  "name": "nog.sh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "live-server": "^1.2.1",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "live-server --port=8082",
+    "build:tailwind": "cross-env NODE_ENV=production tailwindcss build tailwind.css -o main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrestevao/nog.sh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrestevao/nog.sh/issues"
+  },
+  "homepage": "https://github.com/andrestevao/nog.sh#readme"
+}
